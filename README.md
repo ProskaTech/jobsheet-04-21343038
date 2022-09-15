@@ -19,4 +19,4 @@
         score = (answer == 'b') ? 10 : 0;
         System.out.println("Score = " +score);
 
-jika pada score kita mengisi nilainya dengan 'a' maka, hasil yang akan diambil lalu ditampilkan/output = 10, tetapi disitu kita mengisi dengan 'b' maka hasilnya yg diambil adalah yg dikanan = 0. 
+jika pada score kita mengisi nilainya dengan 'a' maka, hasil yang akan diambil lalu ditampilkan/output = 10. why? karna answer adalah 'a', jika answer == 'a' maka bernilai true, yg diambil kondisi pertama dari 10 : 0, yaitu 10. Tetapi disitu kita mengisi dengan 'b', selain 'a' maka hasilnya yg diambil adalah yg dikanan = 0. 
