@@ -1,5 +1,22 @@
 ## Object-oriented Programming (Lab Work) Template Guides
-1. Silakan anda upload file java hasil praktikum anda menggunakan NetBeans atau IDE/text editor lainnya dengan mengupload button ADD FILE
-2. Upload juga screenshot hasil latihan dan tugas anda dalam format .JPG atau .JPEG atau .PNG
-3. Setiap file java anda diharuskan untuk memiliki identitas anda dengan menggunakan komentar dengan format berikut "Created by NIM_Nama Lengkap" pada bagian paling atas setiap code anda. contoh: // Created by 1203232_Randi Proska Sandra
-4. Silakan anda edit file README.md ini dengan identitas anda juga serta berikan penjelasan terkait source code yang anda upload. Catatan: Jangan ubah nama file README.md
+//Created by 21343038_AbelLevran
+1. JS 4 ini kita mengimplementasikan tentang operator pada java, yaitu;
+2. Unary Operator = penjumlahan(+),pengurangan(-),perkalian(*), pembagian(/), modulus(%)= sisa hasil bagi
+3. binary Operator = Arithmetic,relational,logical,bitwise,assigment
+4. operator logika + bollean ,yg digunakan pada program ada AND(&&),OR(||) / (|),NOT
+5. pada operator AND ada && dan &
+6. contoh; [ test = (i > j) && (j++ > 9); ] dan [ test = (i > j) & (j++ > 9); ]
+7. operator && adalah perbandingan 2 kondisi,jika operator kiri true maka operator kanan akan dijalankan,tetapi jika operator yang kiri bernilai false, maka operasi yang kanan tidak akan di jalankan, karena sudah pasti hasilnya akan false.
+8. tetapi pada &, kedua operator kiri dan kanan akan dijalan walaupun sebelah kiri bernilai false.
+9. pada operator OR ada || dan |
+10. operator || perbandingan 2 kondisi, jika operator kiri true maka cukup sampai situ, operator kanan di dijalankan, tetapi jika operator kiri bernilai false, dilanjukan operator di kanan
+11. operator | , operator kiri dan kanan pasti akan di evaluasi apapun kondisinya 
+12. terkakhir Ternary Operator, yaitu kondisi(?:).
+13. contohnya pada konidiOperator & konidiOperator1
+14. int score = 0;
+        char answer = 'a';
+        
+        score = (answer == 'b') ? 10 : 0;
+        System.out.println("Score = " +score);
+
+jika pada score kita mengisi nilainya dengan 'a' maka, hasil yang akan diambil lalu ditampilkan/output = 10. why? karna answer adalah 'a', jika answer == 'a' maka bernilai true, yg diambil kondisi pertama dari 10 : 0, yaitu 10. Tetapi disitu kita mengisi dengan 'b', selain 'a' maka hasilnya yg diambil adalah yg dikanan = 0. 
